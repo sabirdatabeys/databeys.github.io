@@ -3312,7 +3312,7 @@ figcaption {
 .display-1 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 10vw;
+  font-size: 7vw;
   line-height: 1;
   font-weight: 900;
   letter-spacing: 7px;
@@ -4134,7 +4134,7 @@ figcaption {
   justify-content: flex-start;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap: inherit;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4525,7 +4525,7 @@ figcaption {
 }
 
 .h2-bigger {
-  font-size: 42px;
+  font-size: 35px;
   line-height: 44px;
 }
 
@@ -4611,15 +4611,15 @@ figcaption {
 }
 
 .skills-overlay.lead {
-  width: 41%;
+  width: 99%;
 }
 
 .skills-overlay.photoshop {
-  width: 70%;
+  width: 95%;
 }
 
 .skills-overlay.illustration {
-  width: 100%;
+  width: 90%;
 }
 
 .star-image {

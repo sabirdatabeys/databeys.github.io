@@ -1799,7 +1799,8 @@ textarea.w-select {
 }
 .w-dyn-empty {
   padding: 10px;
-  background-color: #dddddd;
+  background-color: none;
+  font-size: 20px bold;
 }
 .w-dyn-hide {
   display: none !important;
