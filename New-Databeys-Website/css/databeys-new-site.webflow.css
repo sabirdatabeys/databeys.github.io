@@ -2985,7 +2985,7 @@ figcaption {
 }
 
 .button:hover {
-  background-color: #ffea00;
+  background-color: #7847D9;
   color: #000;
 }
 
@@ -3001,7 +3001,7 @@ figcaption {
 }
 
 .button.yellow {
-  background-color: #ffea00;
+  background-color: #7847D9;
   color: #000;
 }
 
@@ -3099,11 +3099,11 @@ figcaption {
 }
 
 .text-field._55px:active {
-  border: 1px solid #ffea00;
+  border: 1px solid #7847D9;
 }
 
 .text-field._55px:focus {
-  border: 1px solid #ffea00;
+  border: 1px solid #7847D9;
 }
 
 .text-field.area {
@@ -3522,7 +3522,7 @@ figcaption {
 }
 
 .paragraph-red {
-  color: #ffea00;
+  color: #7847D9;
 }
 
 .color-text {
@@ -3591,7 +3591,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 2px;
-  background-color: #ffea00;
+  background-color: #7847D9;
   color: #fff;
   font-size: 17px;
   font-weight: 500;
@@ -3779,7 +3779,7 @@ figcaption {
 }
 
 .button-line-absolute._2 {
-  background-color: #ffea00;
+  background-color: #7847D9;
 }
 
 .flex-wrapper {
@@ -4234,7 +4234,7 @@ figcaption {
   width: 100%;
   height: 100%;
   border-radius: 100%;
-  background-color: #ffea00;
+  background-color: #7847D9;
 }
 
 .social-circle.black {
@@ -4394,7 +4394,7 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100%;
-  background-color: #ffea00;
+  background-color: #7847D9;
 }
 
 .project-circle.black {
@@ -4468,7 +4468,7 @@ figcaption {
 }
 
 .title-line._2 {
-  color: #ffea00;
+  color: #7847D9;
 }
 
 .lightbox-link {
