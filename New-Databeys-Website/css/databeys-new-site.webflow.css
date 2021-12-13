@@ -4926,7 +4926,13 @@ figcaption {
   line-height: 44px;
   font-weight: 700;
 }
-
+.iconz{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 700;
+}
 .div-block {
   padding-top: 10px;
 }
@@ -6158,7 +6164,10 @@ figcaption {
     font-size: 40px;
     line-height: 40px;
   }
-
+  .iconz{
+    font-size: 20px;
+    line-height: 40px;
+  }
   .grid-4-columns {
     grid-row-gap: 40px;
     -ms-grid-columns: 1fr;
