@@ -2655,12 +2655,15 @@
 }
 
 body {
+  min-height: 100vh;
+  width: 100vw;
   background-color: #fff;
   font-family: Cabinetgrotesk, sans-serif;
   color: #000;
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;
+  overflow-x: hidden; 
 }
 
 h1 {
