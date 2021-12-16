@@ -4718,30 +4718,30 @@ figcaption {
   height: 70px;
   margin-right: 15px;
   border-radius: 100%;
-  background-image: url('../images/people-4.jpg');
+  background-image: url('../images/caitlin.webp');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .testimonials-photo._4 {
-  background-image: url('../images/people-6.jpg');
+  background-image: url('../images/paige.webp');
 }
 
 .testimonials-photo._5 {
-  background-image: url('../images/people-3.jpg');
+  background-image: url('../images/harrison.webp');
 }
 
 .testimonials-photo._6 {
-  background-image: url('../images/people-2.jpg');
+  background-image: url('../images/josh.webp');
 }
 
 .testimonials-photo._7 {
-  background-image: url('../images/people-5.jpg');
+  background-image: url('../images/demi.webp');
 }
 
 .testimonials-photo._3 {
-  background-image: url('../images/people-1.jpg');
+  background-image: url('../images/methew.webp');
 }
 
 .slider-flex {
