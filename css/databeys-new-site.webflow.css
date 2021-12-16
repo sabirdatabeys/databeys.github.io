@@ -3334,10 +3334,9 @@ figcaption {
 }
 
 .display-1.center {
-  font-size: 7vw;
+  font-size: 3vw;
   text-align: center;
 }
-
 .display-1.center.for-blog {
   font-size: 5vw;
   line-height: 1;
