@@ -421,14 +421,19 @@
       flag=true;
       }
       catch(err){
-          alert('error')
-          document.getElementById("successMessage").innerHTML="Sorry! Something went Wrong"
-          document.getElementById("parentSuccessMessage").className="error-message w-form-fail"
+          //alert('error')
+          //document.getElementById("successMessage").innerHTML="Sorry! Something went Wrong"
+          //document.getElementById("parentSuccessMessage").className="error-message w-form-fail"
       }
       finally{
         if(flag==true){
           document.getElementById("successMessage").innerHTML = "Thank you! Your submission has been received!";
           document.getElementById("successMessage").hidden=false;
+		//Reset Form
+		document.getElementById('name').value="";
+		document.getElementById('Email').value="";
+		document.getElementById('Phone').value="";
+		document.getElementById('Website').value="";
         }
       }
     }
