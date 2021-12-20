@@ -415,10 +415,14 @@
 		                  'Website': web //Replace with website of company
 	                  }
         };
-      alert(new_contact.Email);
       var identifier = fAContact;
       fwcrm.identify(identifier, new_contact);
       flag=true;
+      //Reset Form
+		document.getElementById('name').value="";
+		document.getElementById('Email').value="";
+		document.getElementById('Phone').value="";
+		document.getElementById('Website').value="";
       }
       catch(err){
           //alert('error')
@@ -429,11 +433,7 @@
         if(flag==true){
           document.getElementById("successMessage").innerHTML = "Thank you! Your submission has been received!";
           document.getElementById("successMessage").hidden=false;
-		//Reset Form
-		document.getElementById('name').value="";
-		document.getElementById('Email').value="";
-		document.getElementById('Phone').value="";
-		document.getElementById('Website').value="";
+		
         }
       }
     }
