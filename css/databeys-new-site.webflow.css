@@ -4684,7 +4684,7 @@ figcaption {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #fff;
-  text-align: justify;
+  text-align: left;
 }
 
 .start-flex {
