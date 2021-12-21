@@ -204,9 +204,10 @@
                 <label>Name*</label><input type="text" class="w-input" maxlength="256" name="name" data-name="Name" style="opacity:0" placeholder="How should you address you?" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390902" id="name" required="">
                 <!-- <input type="text" class="text-field w-input" maxlength="256" name="Company" data-name="Company" style="opacity:0" placeholder="Company Name" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390903" id="Company"> -->
                 <label>Email*</label><input type="email" class="w-input" maxlength="256" name="Email" data-name="Email" style="opacity:100" placeholder="Lets start a chain" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390904" id="Email" required="">
-                <label>Phone*</label><input type="number" class="w-input" maxlength="256" name="Phone" data-name="Phone" style="opacity:100" placeholder="So nothing get lost in translation" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390905" id="Phone">
-                <label>Company</label><input type="text" class="w-input" maxlength="256" name="Website" data-name="Website" style="opacity:100" placeholder="Share your company website" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="Website" required="">
-                <label>Comment</label><textarea class="area w-input" maxlength="5000" name="Project" data-name="Project" style="opacity:100" placeholder="Growth starts here, how can we help?" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390907" id="Project" required=""></textarea>
+                <label>Phone*</label><input type="number" class="w-input" maxlength="256" name="Phone" data-name="Phone" style="opacity:100" placeholder="So nothing get lost in translation" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390905" id="Phone" required="">
+                <label>Company</label><input type="text" class="w-input" maxlength="256" name="Company Name" data-name="Company Name" style="opacity:100" placeholder="Share your company name" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="CompanyName">
+                <label>Company Website</label><input type="text" class="w-input" maxlength="256" name="Company Website" data-name="Company Website" style="opacity:100" placeholder="Share your company website" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="CompanyWebsite">
+                <label>Comment</label><textarea class="area w-input" maxlength="5000" name="Project" data-name="Project" style="opacity:100" placeholder="Growth starts here, how can we help?" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390907" id="Project"></textarea>
                 <div data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390908" style="opacity:0"><input type="submit" value="Fire Away!" data-wait="Please wait..." class="button yellow full w-button"></div>
               </form>
              <div class="success-message w-form-fail" id="parentSuccessMessage">
@@ -403,21 +404,16 @@
     function myFunction() {
       flag=false;
       try{
-        var fFname=document.getElementById('name').value;
-      var fEmail=document.getElementById('Email').value;
-      var fAContact=document.getElementById('Phone').value;
-      var fCName=document.getElementById('Website').value;
-      var web='www.example.com'
       var new_contact = 
 	      {
-	        'First name': fFname, //Replace with first name of the user
+	        'First name': document.getElementById('name').value, //Replace with first name of the user
 	        //'Last name': 'Doe',  //Replace with last name of the user
-        	'Email': fEmail, //Replace with email of the user
-          'sales_accounts':fCName,
-	        'Alternate contact number': fAContact, //Replace with a custom field
+        	'Email': document.getElementById('Email').value, //Replace with email of the user
+          'sales_accounts':document.getElementById('CompanyName').value,
+	        'Alternate contact number': document.getElementById('Phone').value, //Replace with a custom field
         	'company': {
-	                  	'Name': fCName, //Replace with company name
-		                  'Website': fCName //Replace with website of company
+	                  	'Name': document.getElementById('CompanyName').value, //Replace with company name
+		                  'Website': document.getElementById('CompanyWebsite').value //Replace with website of company
 	                  }
         };
       var identifier = fAContact;
@@ -427,8 +423,9 @@
 		document.getElementById('name').value="";
 		document.getElementById('Email').value="";
 		document.getElementById('Phone').value="";
-		document.getElementById('Website').value="";
-	        document.getElementById('Project').value="";
+    document.getElementById('CompanyName').value="";
+    document.getElementById('CompanyWebsite').value="";
+	  document.getElementById('Project').value="";
       }
       catch(err){
       }
