@@ -3058,13 +3058,13 @@ figcaption {
 
 .text-field:hover {
   border-color: #3ccf91;
-  color: #fff;
+  color: #494949;
 }
 
 .text-field:focus,
 .text-field.-wfp-focus {
   border-color: #3ccf91;
-  color: #fff;
+  color: #494949;
 }
 
 .text-field::-webkit-input-placeholder {
