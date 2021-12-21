@@ -402,7 +402,6 @@
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
 <script>
     function myFunction() {
-      flag=false;
       try{
       var new_contact = 
 	      {
@@ -430,11 +429,8 @@
       catch(err){
       }
       finally{
-        if(flag==true){
           document.getElementById("successMessage").innerHTML = "Thank you! Your submission has been received!";
           document.getElementById("successMessage").hidden=false;
-		
-        }
       }
     }
     </script>
