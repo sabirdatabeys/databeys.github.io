@@ -415,9 +415,8 @@
 		                  'Website': document.getElementById('CompanyWebsite').value //Replace with website of company
 	                  }
         };
-      var identifier = fAContact;
+      var identifier = document.getElementById('name').value;
       fwcrm.identify(identifier, new_contact);
-      flag=true;
       //Reset Form "Project"
 		document.getElementById('name').value="";
 		document.getElementById('Email').value="";
