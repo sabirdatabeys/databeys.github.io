@@ -402,27 +402,27 @@
 <script>
     function myFunction() {
       try{
-    //   var new_contact = 
-	  //     {
-	  //       'First name': document.getElementById('First name').value, //Replace with first name of the user
-	  //       //'Last name': 'Doe',  //Replace with last name of the user
-    //     	'Email': document.getElementById('Email').value, //Replace with email of the user
-    //       'sales_accounts':document.getElementById('Website').value,
-	  //       'Alternate contact number': document.getElementById('Alternate contact number').value, //Replace with a custom field
-    //     	'company': {
-	  //                 	'Name': document.getElementById('Website').value, //Replace with company name
-		//                   'Website': document.getElementById('Website').value //Replace with website of company
-	  //                 }
-    //     };
-    //   var identifier = document.getElementById('First name').value;
-    //   fwcrm.identify(identifier, new_contact);
-    //   //Reset Form "Project"
-		// document.getElementById('First name').value="";
-		// document.getElementById('Email').value="";
-		// document.getElementById('Alternate contact number').value="";
-    // //document.getElementById('Name').value="";
-    // document.getElementById('Website').value="";
-	  // document.getElementById('Project').value="";
+      var new_contact = 
+	      {
+	        'First name': document.getElementById('First name').value, //Replace with first name of the user
+	        //'Last name': 'Doe',  //Replace with last name of the user
+        	'Email': document.getElementById('Email').value, //Replace with email of the user
+          'sales_accounts':document.getElementById('Website').value,
+	        'Alternate contact number': document.getElementById('Alternate contact number').value, //Replace with a custom field
+        	'company': {
+	                  	'Name': document.getElementById('Website').value, //Replace with company name
+		                  'Website': document.getElementById('Website').value //Replace with website of company
+	                  }
+        };
+      var identifier = document.getElementById('First name').value;
+      fwcrm.identify(identifier, new_contact);
+      //Reset Form "Project"
+		document.getElementById('First name').value="";
+		document.getElementById('Email').value="";
+		document.getElementById('Alternate contact number').value="";
+    //document.getElementById('Name').value="";
+    document.getElementById('Website').value="";
+	  document.getElementById('Project').value="";
       }
       catch(err){
       }
