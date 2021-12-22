@@ -205,8 +205,7 @@
                 <!-- <input type="text" class="text-field w-input" maxlength="256" name="Company" data-name="Company" style="opacity:0" placeholder="Company Name" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390903" id="Company"> -->
                 <label>Email*</label><input type="email" class="w-input" maxlength="256" name="Email" data-name="Email" style="opacity:100" placeholder="Lets start a chain" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390904" id="Email" required="">
                 <label>Phone*</label><input type="number" class="w-input" maxlength="256" name="Phone" data-name="Phone" style="opacity:100" placeholder="So nothing get lost in translation" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390905" id="Alternate contact number" required="">
-                <label>Company</label><input type="text" class="w-input" maxlength="256" name="Company Name" data-name="Company Name" style="opacity:100" placeholder="Share your company name" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="Name">
-                <label>Company Website</label><input type="text" class="w-input" maxlength="256" name="Company Website" data-name="Company Website" style="opacity:100" placeholder="Share your company website" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="Website">
+                <label>Company Website</label><input type="url" pattern="^((?!-)[A-Za-z0-9-]{1, 63}(?<!-)\\.)+[A-Za-z]{2, 6}$" class="w-input" maxlength="256" name="Company Website" data-name="Company Website" style="opacity:100" placeholder="We only need the domain name" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390906" id="Website">
                 <label>Comment</label><textarea class="area w-input" maxlength="5000" name="Project" data-name="Project" style="opacity:100" placeholder="Growth starts here, how can we help?" data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390907" id="Project"></textarea>
                 <div data-w-id="2c97a1d5-ebf0-345b-f09d-59bb48390908" style="opacity:0"><input type="submit" value="Fire Away!" data-wait="Please wait..." class="button yellow full w-button"></div>
               </form>
@@ -223,7 +222,7 @@
         </div>
       </div>
     </div>
-   <!-- <div data-w-id="663e623e-5ba0-a931-aa30-38ba1c34f4ab" class="section take-off wf-section" style="background-color: #AE8DFF;">
+   <div data-w-id="663e623e-5ba0-a931-aa30-38ba1c34f4ab" class="section take-off2 wf-section" style="background-color: #AE8DFF;">
       <div class="container" >
         <div class="max-w-width left">
           <div>
@@ -238,7 +237,7 @@
           </div>
         </div>
       </div>
-    </div>  -->
+    </div> 
     <div class="footer">
       <div class="container">
         <div class="grid-4-columns">
@@ -408,10 +407,10 @@
 	        'First name': document.getElementById('First name').value, //Replace with first name of the user
 	        //'Last name': 'Doe',  //Replace with last name of the user
         	'Email': document.getElementById('Email').value, //Replace with email of the user
-          'sales_accounts':document.getElementById('Name').value,
+          'sales_accounts':document.getElementById('Website').value,
 	        'Alternate contact number': document.getElementById('Alternate contact number').value, //Replace with a custom field
         	'company': {
-	                  	'Name': document.getElementById('Name').value, //Replace with company name
+	                  	'Name': document.getElementById('Website').value, //Replace with company name
 		                  'Website': document.getElementById('Website').value //Replace with website of company
 	                  }
         };
@@ -421,7 +420,7 @@
 		document.getElementById('First name').value="";
 		document.getElementById('Email').value="";
 		document.getElementById('Alternate contact number').value="";
-    document.getElementById('Name').value="";
+    //document.getElementById('Name').value="";
     document.getElementById('Website').value="";
 	  document.getElementById('Project').value="";
       }

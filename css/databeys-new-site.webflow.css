@@ -2971,6 +2971,24 @@ figcaption {
   cursor:none;
 }
 
+.section.take-off2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #AE8DFF;
+  cursor:context-menu;
+}
 .section.shop {
   padding-top: 60px;
 }
@@ -5370,6 +5388,10 @@ figcaption {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  .section.take-off2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 
   .first-checkout {
     width: 100%;
@@ -5891,6 +5913,11 @@ figcaption {
     padding-top: 35px;
     padding-bottom: 35px;
   }
+  .section.take-off2 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
 
   .remove-pop-up {
     top: 10px;
