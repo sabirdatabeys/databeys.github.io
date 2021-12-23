@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.databeys.com/sitemap.xml
+
+User-agent: Bingbot
+Disallow: /
+Sitemap: https://www.databeys.com/sitemap.xml
