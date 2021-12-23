@@ -1,49 +1,38 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .column1 {
-    float:left;
-    width: 10%;
-    padding-top: 20px;
-    /* padding-left: 20px; */
-    align-items: left;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column2 {
-    float:left;
-    width: 40%;
-    padding-top: 20px;
-    /* padding-left: 10px; */
-    align-items: left;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column3 {
-    float:left;
-    width: 10%;
-    padding-top: 20px;
-    /* padding-left: 20px; */
-    align-items: center;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column4 {
-    float:left;
-    width: 40%;
-    padding-top: 20px;
-    /* padding-left: 10px; */
-    align-items: center;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    align-items: center;
-    clear: both;
-    font-family: Cabinetgrotesk, sans-serif;
-  }
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
