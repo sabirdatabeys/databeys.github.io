@@ -3755,10 +3755,10 @@ figcaption {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: auto;
   grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -3801,7 +3801,18 @@ figcaption {
 .button-line-absolute._2 {
   background-color: #AE8DFF;
 }
-
+.popup {
+  padding:10px 20px;
+  /*background:black;*/
+  color:white;
+  font-size:15px;
+  font-weight:600;
+  text-decoration:none;
+  border-radius:5px;
+  position: relative;
+  text-decoration: none;
+  margin-top: 20px;
+}
 .flex-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
