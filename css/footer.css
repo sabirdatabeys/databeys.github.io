@@ -5,7 +5,7 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 30px bold;
   text-align: center;
 }
 
@@ -13,14 +13,14 @@
   background-color: #ae1dff;
   padding-top: 20px;
   padding-left: 0px;
-  flex: 20%;
+  flex: 10%;
   
 }
 .flex-item-2 {
   background-color: #ae1dff;
   padding-top: 10px;
   padding-right: 30px;
-  flex: 30%;
+  flex: 40%;
   text-align: left;
   padding-left: 110px;
 }
@@ -28,14 +28,14 @@
   background-color: #AE8DFF;
   padding-top: 20px;
   padding-left: 0px;
-  flex: 20%;
+  flex: 10%;
 }
 .flex-item-4 {
   background-color: #AE8DFF;
   padding-top: 10px;
   padding-right: 0px;
   padding-left: 110px;
-  flex: 30%;
+  flex: 40%;
   text-align: left;
 }
 
