@@ -3652,6 +3652,9 @@ figcaption {
   line-height: 0.8;
   letter-spacing: 0.3vw;
 }
+.popup::-webkit-scrollbar {
+  display: none;
+}
 
 .nav-text:hover {
   color: #000;
