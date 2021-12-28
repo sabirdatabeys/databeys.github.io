@@ -1,49 +1,42 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-1 {
+  background-color: #ae1dff;
+  padding-top: 10px;
+  padding-left: 30px;
+  flex: 20%;
+}
+.flex-item-2 {
+  background-color: #ae1dff;
+  padding-top: 10px;
+  padding-left: 0px;
+  flex: 30%;
+}
+.flex-item-3 {
+  background-color: #AE8DFF;
+  padding-top: 10px;
+  padding-left: 30px;
+  flex: 20%;
+}
+.flex-item-4 {
+  background-color: #AE8DFF;
+  padding-top: 10px;
+  padding-left: 0px;
+  flex: 30%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
   }
-  
-  /* Create two equal columns that floats next to each other */
-  .column1 {
-    float:left;
-    width: 10%;
-    padding-top: 20px;
-    /* padding-left: 20px; */
-    align-items: left;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column2 {
-    float:left;
-    width: 40%;
-    padding-top: 20px;
-    /* padding-left: 10px; */
-    align-items: left;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column3 {
-    float:left;
-    width: 10%;
-    padding-top: 20px;
-    /* padding-left: 20px; */
-    align-items: center;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  .column4 {
-    float:left;
-    width: 40%;
-    padding-top: 20px;
-    /* padding-left: 10px; */
-    align-items: center;
-    height: 230px; /* Should be removed. Only for demonstration */
-    font-family: Cabinetgrotesk, sans-serif;
-  }
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    align-items: center;
-    clear: both;
-    font-family: Cabinetgrotesk, sans-serif;
-  }
+}
