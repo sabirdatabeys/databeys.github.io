@@ -20,7 +20,7 @@
   padding-top: 10px;
   padding-left: 0px;
   flex: 30%;
-  text-align: left;
+  text-align: justify;
 }
 .flex-item-3 {
   background-color: #AE8DFF;
@@ -33,7 +33,7 @@
   padding-top: 10px;
   padding-left: 0px;
   flex: 30%;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
